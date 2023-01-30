@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Info Hanna Bakery</title>
+  </head>
+  <body>
+    <h1>Fill out your info</h1>
+    <form >
+    <table>
+      <tbody>
+        <tr>
+          <td><label for="FirstName">First Name</label></td>
+          <td>:<input type="text" name="fname" id="FirstName" /></td>
+        </tr>
+        <tr>
+          <td><label for="LastName">Last Name</label></td>
+          <td>:<input type="text" name="lname" id="LastName" /></td>
+        </tr>
+        <tr>
+          <td><label for="mail">Email</label></td>
+          <td>:<input type="email" name="email" id="mail" /></td>
+        </tr>
+        <tr>
+          <td rowspan="2"><label for="gender">Gender</label></td>
+          <td>
+            <input type="radio" name="Gender" id="gender" value="Male" />
+            <label for="gender">Male</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="Gender" id="female" value="Female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="2">
+            <label for="pepperoni">Flavor</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              name="Flavor"
+              id="pepperoni"
+              value="pepperoni"
+            />
+            <label for="pepperoni">Pepperoni</label>
+          </td>
+          <td>
+            <input
+              type="checkbox"
+              name="Falvor"
+              id="cheese"
+              value="cheese-lovers"
+            />
+            <label for="cheese">Cheese Lovers</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" name="Falvor" id="bakon" value="bakon" />
+            <label for="bakon">Bakon</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+          <label for="CommentBox">Comments </label>
+          </td>
+          <td>
+          <textarea
+            name="comment"
+            id="CommentBox"
+            cols="30"
+            rows="10"
+          ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    </form>
+  </body>
+</html>
