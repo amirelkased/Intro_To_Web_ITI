@@ -1,0 +1,11 @@
+div p{
+  background-color: greenyellow;
+}
+
+body{
+  background-color: blueviolet;
+}
+
+#para{
+  background-image: url("/resources/images/pizza.jpg");
+}
