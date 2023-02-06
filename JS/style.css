@@ -1,13 +1,13 @@
-h1{
+h1 {
   text-align: center;
   background-color: yellowgreen;
 }
 
-div.result-one{
+div.result-one {
   background-color: rgb(121, 121, 189);
 }
 
-p{
+p {
   text-align: center;
   background-color: rgb(160, 168, 175);
   font-size: larger;
