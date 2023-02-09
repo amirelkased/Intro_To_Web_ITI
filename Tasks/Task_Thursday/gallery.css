@@ -1,0 +1,48 @@
+h1{
+  text-align: center;
+  background-color: rgba(0, 0, 0,0.2);
+  border-radius: 5px;
+  padding: 5px;
+  color: rgb(126, 10, 150);
+}
+
+.btns{
+  text-align: center;
+}
+
+.open , .close{
+  font-size: 17x;
+  font-weight: 600;
+  padding: 10px 15px;
+  margin: 0% 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.container{
+  margin: 3%;
+}
+
+.open:hover, .close:hover{
+  background-color: green;
+  color: white;
+}
+
+.img1,.img2,.img3{
+  float: left;
+  width: 25%;
+  padding: 2%;
+}
+
+.img1 img,.img2 img,.img3 img{
+  width: 100%;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.container label{
+  font: 500;
+  font-size: large;
+}

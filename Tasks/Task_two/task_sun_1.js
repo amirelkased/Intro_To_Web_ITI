@@ -4,9 +4,6 @@ document.write("<p> Today is : " + getDay() + " </p>");
 
 function getDay() {
   switch (date.getDay()) {
-    case 6:
-      return "Saturday";
-      break;
     case 0:
       return "Sunday";
       break;
@@ -24,6 +21,9 @@ function getDay() {
       break;
     case 5:
       return "Friday";
+      break;
+    case 6:
+      return "Saturday";
       break;
     default:
       return "Error Happen!";

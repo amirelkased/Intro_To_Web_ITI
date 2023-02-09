@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+  padding: 5px;
+  color: rgb(17, 78, 5);
+  border-radius: 10px;
+}
+
+.insertBtn{
+  text-align: center;
+  margin:20px auto;
+}
+
+button{
+  padding: 7px 15px;
+  font-size: 100%;
+  font-weight: 500;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+button:hover{
+  background-color: green;
+  color: white;
+}
+
+.block{
+  float: left;
+  margin: 1px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.container{
+  background-color: rgba(0,0,0,0.2);
+}
+
+.block{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.blocks{
+  padding: 10px;
+}
